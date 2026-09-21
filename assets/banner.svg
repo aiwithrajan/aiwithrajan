@@ -1,83 +1,146 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" font-family="'Courier New', ui-monospace, monospace">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'JetBrains Mono', monospace">
   <defs>
-    <!-- color-cycling neon gradient -->
-    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#05D9E8">
-        <animate attributeName="stop-color" values="#05D9E8;#D300C5;#FF2A6D;#05D9E8" dur="7s" repeatCount="indefinite"/>
+    <!-- Deep Space Background Gradient -->
+    <linearGradient id="deepSpace" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04060d" />
+      <stop offset="45%" stop-color="#080e1c" />
+      <stop offset="100%" stop-color="#03050a" />
+    </linearGradient>
+
+    <!-- Emerald / Quantum Cyan Neon Gradient -->
+    <linearGradient id="quantumGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ffa3">
+        <animate attributeName="stop-color" values="#00ffa3;#00e5ff;#9d4edd;#00ffa3" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#D300C5">
-        <animate attributeName="stop-color" values="#D300C5;#FF2A6D;#05D9E8;#D300C5" dur="7s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#00e5ff">
+        <animate attributeName="stop-color" values="#00e5ff;#9d4edd;#00ffa3;#00e5ff" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#FF2A6D">
-        <animate attributeName="stop-color" values="#FF2A6D;#05D9E8;#D300C5;#FF2A6D" dur="7s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#9d4edd">
+        <animate attributeName="stop-color" values="#9d4edd;#00ffa3;#00e5ff;#9d4edd" dur="8s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
-    <!-- vertical scan gradient -->
-    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#05D9E8" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#05D9E8" stop-opacity="0.12"/>
-      <stop offset="1" stop-color="#05D9E8" stop-opacity="0"/>
+    <!-- Laser Line Scanner -->
+    <linearGradient id="laserBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ffa3" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00ffa3" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- neon glow -->
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="4.5" result="b"/>
+    <!-- Perspective Grid Pattern -->
+    <pattern id="matrixGrid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#14283c" opacity="0.8"/>
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#0e1f30" stroke-width="0.75" stroke-dasharray="2,4"/>
+    </pattern>
+
+    <!-- Blur & Glow Filters -->
+    <filter id="emeraldGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
       <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
-
-    <!-- moving cyberpunk grid -->
-    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
-      <path d="M42 0H0V42" fill="none" stroke="#0f2f40" stroke-width="1"/>
-      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="42 42" dur="9s" repeatCount="indefinite"/>
-    </pattern>
   </defs>
 
-  <!-- backdrop -->
-  <rect width="1200" height="300" fill="#0D0221"/>
-  <rect width="1200" height="300" fill="url(#grid)" opacity="0.55"/>
-  <radialGradient id="vig" cx="0.5" cy="0.5" r="0.75">
-    <stop offset="0.55" stop-color="#0D0221" stop-opacity="0"/>
-    <stop offset="1" stop-color="#0D0221" stop-opacity="0.85"/>
-  </radialGradient>
-  <rect width="1200" height="300" fill="url(#vig)"/>
+  <style>
+    .hud-label {
+      font-family: 'JetBrains Mono', 'Courier New', monospace;
+      font-size: 11px;
+      letter-spacing: 2px;
+      fill: #4e738c;
+      font-weight: 600;
+    }
+    .hud-online {
+      fill: #00ffa3;
+      font-weight: bold;
+    }
+    .main-name {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 56px;
+      font-weight: 900;
+      letter-spacing: 9px;
+      fill: url(#quantumGlow);
+      filter: url(#emeraldGlow);
+    }
+    .subtitle {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 17px;
+      letter-spacing: 4px;
+      fill: #a2c4dc;
+      font-weight: 600;
+    }
+    .tagline {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13.5px;
+      letter-spacing: 2.5px;
+      fill: #00ffa3;
+      opacity: 0.85;
+    }
+    .circuit-line {
+      stroke: #14324a;
+      stroke-width: 1.2;
+      fill: none;
+    }
+  </style>
 
-  <!-- moving scanline band -->
-  <rect x="0" y="-90" width="1200" height="90" fill="url(#scan)">
-    <animate attributeName="y" values="-90;300" dur="5.5s" repeatCount="indefinite"/>
-  </rect>
+  <!-- Background Base -->
+  <rect width="1200" height="320" rx="14" fill="url(#deepSpace)" />
+  <rect width="1200" height="320" rx="14" fill="url(#matrixGrid)" opacity="0.7" />
 
-  <!-- top / bottom neon rails + travelling light -->
-  <line x1="60" y1="14" x2="1140" y2="14" stroke="#123a4d" stroke-width="2"/>
-  <line x1="60" y1="286" x2="1140" y2="286" stroke="#123a4d" stroke-width="2"/>
-  <rect y="12" width="150" height="4" rx="2" fill="url(#neon)">
-    <animate attributeName="x" values="-150;1200" dur="4.5s" repeatCount="indefinite"/>
-  </rect>
-  <rect y="284" width="150" height="4" rx="2" fill="url(#neon)">
-    <animate attributeName="x" values="1200;-150" dur="4.5s" repeatCount="indefinite"/>
-  </rect>
+  <!-- Ambient Light Core -->
+  <ellipse cx="600" cy="160" rx="420" ry="110" fill="#00ffa3" opacity="0.04" filter="blur(60px)"/>
+  <ellipse cx="600" cy="160" rx="260" ry="80" fill="#00e5ff" opacity="0.06" filter="blur(40px)"/>
 
-  <!-- HUD corner brackets -->
-  <g stroke="#05D9E8" stroke-width="2.5" fill="none" opacity="0.9">
-    <path d="M30 46 V30 H46"/>
-    <path d="M1170 46 V30 H1154"/>
-    <path d="M30 254 V270 H46"/>
-    <path d="M1170 254 V270 H1154"/>
-  </g>
-
-  <!-- title -->
-  <text x="600" y="150" text-anchor="middle" font-size="58" font-weight="bold"
-        fill="url(#neon)" filter="url(#glow)" letter-spacing="4">RAJAN MISHRA
-    <animate attributeName="opacity" values="1;1;0.72;1;1;0.88;1"
-             keyTimes="0;0.42;0.45;0.48;0.72;0.75;1" dur="5s" repeatCount="indefinite"/>
+  <!-- Top HUD Status Bar -->
+  <line x1="40" y1="36" x2="1160" y2="36" stroke="#122538" stroke-width="1.2" />
+  
+  <text x="50" y="24" class="hud-label">
+    // NODE: <tspan fill="#00e5ff">SYS_01_CORE</tspan>
+  </text>
+  <text x="600" y="24" text-anchor="middle" class="hud-label">
+    [ ARCHITECTURE // AUTONOMOUS_INTELLIGENCE ]
+  </text>
+  <text x="1150" y="24" text-anchor="end" class="hud-label">
+    STATUS: <tspan class="hud-online">&#x25CF; ACTIVE</tspan>
   </text>
 
-  <!-- subtitle -->
-  <text x="600" y="196" text-anchor="middle" font-size="21" fill="#8BE9F0" letter-spacing="3">&#60;/&#62; AI ENGINEER  //  AUTONOMOUS SYSTEMS  //  FULL-STACK ARCHITECT</text>
+  <!-- Side Tech Circuit Accents -->
+  <path d="M 40 70 L 40 100 L 70 100" class="circuit-line" />
+  <circle cx="70" cy="100" r="2.5" fill="#00ffa3" />
+  
+  <path d="M 1160 70 L 1160 100 L 1130 100" class="circuit-line" />
+  <circle cx="1130" cy="100" r="2.5" fill="#00e5ff" />
 
-  <!-- terminal prompt with blinking cursor -->
-  <text x="600" y="234" text-anchor="middle" font-size="16" fill="#FF6EA6" letter-spacing="1">&#62; concept -&#62; intelligence -&#62; scale<tspan fill="#05D9E8" dx="2">&#95;<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.5;0.5;0.99;1" dur="1.05s" repeatCount="indefinite"/></tspan></text>
+  <path d="M 40 250 L 40 220 L 70 220" class="circuit-line" />
+  <circle cx="70" cy="220" r="2.5" fill="#00e5ff" />
+
+  <path d="M 1160 250 L 1160 220 L 1130 220" class="circuit-line" />
+  <circle cx="1130" cy="220" r="2.5" fill="#00ffa3" />
+
+  <!-- Animated Center Scanner Beam -->
+  <line x1="120" y1="170" x2="1080" y2="170" stroke="#0a1d2d" stroke-width="1" stroke-dasharray="6,6"/>
+  <rect x="0" y="168" width="220" height="3" fill="url(#laserBeam)">
+    <animate attributeName="x" values="-220;1200" dur="4.2s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Typography -->
+  <!-- Name -->
+  <text x="600" y="138" text-anchor="middle" class="main-name">
+    RAJAN MISHRA
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="188" text-anchor="middle" class="subtitle">
+    AI SYSTEMS ARCHITECT &amp; RESEARCHER
+  </text>
+
+  <!-- Tagline -->
+  <text x="600" y="234" text-anchor="middle" class="tagline">
+    &lt; multi-agent swarms &#8226; neural reasoning &#8226; distributed scale &gt;
+  </text>
+
+  <!-- Bottom Accent Line -->
+  <line x1="380" y1="265" x2="820" y2="265" stroke="#122538" stroke-width="1.5" />
+  <circle cx="600" cy="265" r="3" fill="#00ffa3" />
 </svg>

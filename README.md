@@ -1,270 +1,215 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                    ▓▓▓  CYBERPUNK PROFILE // RAJAN MISHRA  ▓▓▓           -->
+<!--               ◈ RAJAN MISHRA // NEURAL SYSTEMS ARCHITECT ◈               -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<!-- ── Animated neon header ────────────────────────────────────────────── -->
-<p align="center">
-  <img width="100%" src="./assets/banner.svg" alt="header"/>
-</p>
+<div align="center">
 
-<!-- ── Glitch typing subtitle ──────────────────────────────────────────── -->
-<p align="center">
+  <!-- HOLOGRAPHIC QUANTUM BANNER -->
+  <img src="./assets/banner.svg" alt="Rajan Mishra Banner" width="100%" />
+
+  <br/><br/>
+
+  <!-- TERMINAL TELEMETRY TYPING SUBTITLE -->
   <a href="https://github.com/aiwithrajan">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=900&color=05D9E8&background=0D022100&center=true&vCenter=true&width=780&lines=%3E+initializing+neural+workbench...;%3E+autonomous+AI+agents+%C2%B7+full-stack+systems+%C2%B7+scale;%3E+production+RAG+%C2%B7+low-latency+backends+%C2%B7+resilient+APIs;%3E+concept+--%3E+intelligence+--%3E+scale.+fast." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=00FFA3&background=04060D00&center=true&vCenter=true&width=840&lines=%24+booting+neural_orchestrator.py...;%3E+Architecting+Autonomous+Multi-Agent+Swarms;%3E+Engineering+Production+RAG+%26+Vector+Pipelines;%3E+Turning+computation+into+verifiable+intelligence." alt="Terminal Output" />
+  </a>
+
+  <br/><br/>
+
+  <!-- ACTION BUTTONS / SOCIAL UPLINKS -->
+  <a href="mailto:imrajan098@gmail.com">
+    <img src="https://img.shields.io/badge/TERMINAL_EMAIL-04060D?style=for-the-badge&logo=gmail&logoColor=00FFA3&labelColor=04060D&color=00FFA3" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com/in/rajanmishra01" target="_blank">
+    <img src="https://img.shields.io/badge/LINKEDIN_CORE-04060D?style=for-the-badge&logo=linkedin&logoColor=00E5FF&labelColor=04060D&color=00E5FF" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://x.com/RajanMi26020288" target="_blank">
+    <img src="https://img.shields.io/badge/DISPATCH_X-04060D?style=for-the-badge&logo=x&logoColor=FFFFFF&labelColor=04060D&color=7928CA" alt="X" />
+  </a>
+  &nbsp;
+  <a href="https://huggingface.co/rajanmishra123" target="_blank">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97_MODELS-04060D?style=for-the-badge&logoColor=FFD21E&labelColor=04060D&color=FFD21E" alt="HuggingFace" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/aiwithrajan?tab=repositories" target="_blank">
+    <img src="https://img.shields.io/badge/REPOSITORIES-04060D?style=for-the-badge&logo=github&logoColor=00FFA3&labelColor=04060D&color=00FFA3" alt="Repositories" />
+  </a>
+
+  <br/><br/>
+
+  <!-- QUANTUM DIVIDER -->
+  <img src="./assets/divider.svg" width="100%" />
+
+  <!-- SYSTEM TELEMETRY STRIP -->
+  <p align="center">
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=aiwithrajan.aiwithrajan&left_text=TELEMETRY_VISITORS&left_color=04060D&right_color=00FFA3" alt="Visitor Counter" />
+    &nbsp;&nbsp;
+    <img src="https://img.shields.io/github/followers/aiwithrajan?label=FOLLOWERS&style=flat-square&color=00E5FF&labelColor=04060D" alt="Followers" />
+    &nbsp;&nbsp;
+    <img src="https://img.shields.io/github/stars/aiwithrajan?label=STARS&style=flat-square&color=9D4EDD&labelColor=04060D" alt="Stars" />
+    &nbsp;&nbsp;
+    <img src="https://komarev.com/ghpvc/?username=aiwithrajan&label=SYSTEM_PINGS&color=00FFA3&style=flat-square&labelColor=04060D" alt="Total Views" />
+  </p>
+
+</div>
+
+<br/>
+
+### `◈ 01 // INTEL_MANIFEST`
+
+```text
+╭────────────────────────────────────────────────────────────────────────────────────────╮
+│  OPERATOR        : Rajan Mishra                                                        │
+│  DISCIPLINE      : AI Systems Engineer & Autonomous Agent Architect                    │
+│  CORE MISSION    : Building resilient, deterministic intelligence on top of LLMs      │
+│  SPECIALTIES     : Multi-Agent Swarms · Self-Healing Pipelines · Low-Latency RAG       │
+│  INFRASTRUCTURE  : Python · FastAPI · LangGraph · PyTorch · Qdrant · PostgreSQL        │
+│  BUILD DOCTRINE  : Research with depth ──> Architect with rigor ──> Deploy at scale    │
+╰────────────────────────────────────────────────────────────────────────────────────────╯
+```
+
+#### Core Engineering Pillars
+
+| Pillar | Engineering Execution |
+| :--- | :--- |
+| **🤖 Autonomous Agent Swarms** | Orchestrating multi-agent state graphs, dynamic supervisor routing, deterministic tool validation, and reflexive error loops. |
+| **🔍 Cognitive Retrieval (RAG)** | Hybrid dense-sparse search, reciprocal rank fusion (RRF), cross-encoder re-ranking, and dynamic vector clustering. |
+| **⚡ High-Throughput Backends** | Asynchronous FastAPI microservices, streaming SSE / WebSocket architectures, and low-latency local model inference. |
+| **🛡️ Guardrails & Evaluation** | Typed structured JSON schemas, hallucination detection layers, automated prompt benchmarking, and observability. |
+
+<br/>
+
+<img src="./assets/divider.svg" width="100%" />
+
+<br/>
+
+### `◈ 02 // NEURAL_STACK & TOOLING`
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,pytorch,ts,react,nextjs,postgres,redis,docker,aws,linux,git&theme=dark&perline=12" alt="Core Technologies" />
+</div>
+
+<br/>
+
+```ini
+[INTELLIGENCE_LAYER]
+PyTorch · LangChain · LangGraph · LlamaIndex · HuggingFace · Ollama · vLLM · CrewAI
+
+[BACKEND_&_APIS]
+FastAPI · Python · Node.js · Express · RESTful APIs · Server-Sent Events (SSE) · WebSockets
+
+[FRONTEND_&_INTERACTION]
+TypeScript · React · Next.js · Tailwind CSS · Vite · Interactive Web Visualizations
+
+[STORAGE_&_VECTORS]
+Qdrant · PostgreSQL · Supabase · ChromaDB · Redis · Pinecone · SQLite
+
+[DEVOPS_&_PLATFORMS]
+Docker · Kubernetes · AWS Cloud · Cloudflare · Linux / Bash · GitHub Actions (CI/CD)
+```
+
+<br/>
+
+<img src="./assets/divider.svg" width="100%" />
+
+<br/>
+
+### `◈ 03 // ARCHITECTURAL BLUEPRINT`
+
+> **Dynamic Multi-Agent Swarm with Self-Correction & Verification Loop**
+
+```mermaid
+flowchart TD
+    classDef cyber fill:#080e1c,stroke:#00ffa3,stroke-width:1.5px,color:#00ffa3;
+    classDef accent fill:#080e1c,stroke:#00e5ff,stroke-width:1.5px,color:#00e5ff;
+    classDef warn fill:#080e1c,stroke:#9d4edd,stroke-width:1.5px,color:#9d4edd;
+
+    INPUT["Incoming Objective / User Query"]:::accent --> ROUTER["Supervisor Intent Router"]:::cyber
+    
+    subgraph Swarm ["Autonomous Execution Swarm"]
+        ROUTER --> P_AGENT["Planning & Decomposition Agent"]:::cyber
+        P_AGENT --> T_AGENT["Tool Calling & Inference Node"]:::cyber
+        T_AGENT --> V_AGENT["Synthesis & Assembly Agent"]:::cyber
+    end
+
+    subgraph Memory ["Cognitive Context Subsystem"]
+        V_STORE[("Qdrant Vector Store\n(Epistemic Memory)")]:::warn
+        T_AGENT <--> V_STORE
+    end
+
+    V_AGENT --> GATE{"Reflexive Verification Gate"}:::accent
+    GATE -- "Fail / Hallucination" --> P_AGENT
+    GATE -- "Pass / Verified" --> OUTPUT["Deterministic Production Output"]:::cyber
+```
+
+<br/>
+
+<img src="./assets/divider.svg" width="100%" />
+
+<br/>
+
+### `◈ 04 // ACTIVE LABS & REPOSITORIES`
+
+| System | Classification | Tech Stack | Status |
+| :--- | :--- | :--- | :--- |
+| [**Autonomous Agent Swarm**](https://github.com/aiwithrajan) | Distributed Multi-Agent Engine | Python, LangGraph, FastAPI, Docker | `● ACTIVE DEV` |
+| [**Hybrid RAG Search Platform**](https://github.com/aiwithrajan) | Dense/Sparse Vector Search Engine | Qdrant, PyTorch, Next.js, TypeScript | `● SHIPPED` |
+| [**Agentic Developer Assistant**](https://github.com/aiwithrajan) | Automated Code Evaluation & Refactor | Ollama, LangChain, CLI | `● OPEN SOURCE` |
+| [**FastAPI AI Gateway**](https://github.com/aiwithrajan) | High-Concurrency Model Serving | FastAPI, Redis, Docker, vLLM | `● PRODUCTION` |
+
+<br/>
+
+<img src="./assets/divider.svg" width="100%" />
+
+<br/>
+
+### `◈ 05 // SYSTEM METRICS & COMMITS`
+
+<div align="center">
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aiwithrajan&theme=tokyonight" alt="Profile Details" />
+  &nbsp;
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=aiwithrajan&theme=tokyonight" alt="GitHub Stats" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=aiwithrajan&theme=dark&hide_border=true&background=04060D&ring=00FFA3&fire=00E5FF&currStreakLabel=00FFA3&sideLabels=A2C4DC&dates=4E738C" alt="GitHub Streak" />
+</div>
+
+<br/>
+
+<img src="./assets/divider.svg" width="100%" />
+
+<br/>
+
+### `◈ 06 // SECURE UPLINK & TRANSMISSION`
+
+```bash
+$ rajan --connect
+Connecting to operator node...
+[+] Email    : imrajan098@gmail.com
+[+] LinkedIn : https://linkedin.com/in/rajanmishra01
+[+] X        : https://x.com/RajanMi26020288
+[+] GitHub   : https://github.com/aiwithrajan
+```
+
+<p align="center">
+  <a href="mailto:imrajan098@gmail.com">
+    <img src="https://img.shields.io/badge/Open_Comms-Send_Email-00FFA3?style=flat-square&logo=gmail&logoColor=04060D" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://linkedin.com/in/rajanmishra01" target="_blank">
+    <img src="https://img.shields.io/badge/Professional_Network-LinkedIn-00E5FF?style=flat-square&logo=linkedin&logoColor=04060D" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://x.com/RajanMi26020288" target="_blank">
+    <img src="https://img.shields.io/badge/Follow_Broadcasts-X-7928CA?style=flat-square&logo=x&logoColor=white" />
   </a>
 </p>
 
-<!-- ── Neon socials ────────────────────────────────────────────────────── -->
 <p align="center">
-  <a href="mailto:imrajan098@gmail.com"><img src="https://img.shields.io/badge/EMAIL-FF2A6D?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D0221" alt="Email" /></a>
-  <a href="https://linkedin.com/in/rajanmishra01"><img src="https://img.shields.io/badge/LINKEDIN-05D9E8?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D0221" alt="LinkedIn" /></a>
-  <a href="https://x.com/RajanMi26020288"><img src="https://img.shields.io/badge/X-D300C5?style=for-the-badge&logo=x&logoColor=white&labelColor=0D0221" alt="X" /></a>
-  <a href="https://huggingface.co/rajanmishra123"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HUGGINGFACE-9D4EDD?style=for-the-badge&logoColor=white&labelColor=0D0221" alt="HuggingFace" /></a>
-  <a href="https://github.com/aiwithrajan?tab=repositories"><img src="https://img.shields.io/badge/ALL%20REPOS-9D4EDD?style=for-the-badge&logo=github&logoColor=white&labelColor=0D0221" alt="All Repositories" /></a>
-</p>
-
-<!-- ── Neon divider ────────────────────────────────────────────────────── -->
-<img width="100%" src="./assets/divider.svg" alt="divider"/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                          PROFILE VIEWER                                 -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-## `▚ PROFILE_VIEWER`
-
-<div align="center">
-
-<img src="https://visitor-badge.laobi.icu/badge?page_id=aiwithrajan.aiwithrajan&left_text=PROFILE%20VISITORS&left_color=0D0221&right_color=FF2A6D" alt="visitor counter" />
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=aiwithrajan&label=TOTAL%20VIEWS&color=FF2A6D&style=for-the-badge&labelColor=0D0221" alt="views" />
-<img src="https://img.shields.io/github/followers/aiwithrajan?label=FOLLOWERS&style=for-the-badge&color=05D9E8&labelColor=0D0221" alt="followers" />
-<img src="https://img.shields.io/github/stars/aiwithrajan?label=TOTAL%20STARS&style=for-the-badge&color=D300C5&labelColor=0D0221" alt="stars" />
-
-</div>
-
-<img width="100%" src="./assets/divider.svg" alt="divider"/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                              WHOAMI                                     -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-## `▚ WHOAMI`
-
-```ts
-const rajan: Engineer = {
-  role:      "AI Systems Engineer & Full-Stack Architect",
-  focus:     ["Autonomous AI Agents", "Multi-Agent Swarms", "Production RAG", "Distributed Systems"],
-  building:  "Resilient AI products with hardened tool calling, reliable APIs & low latency",
-  backend:   "Python · FastAPI · LangGraph · PyTorch · PostgreSQL · Redis",
-  frontend:  "TypeScript · React · Next.js · Tailwind CSS",
-  inference: "Quantized Local Models · Tool-Use · Self-Reflective Loops · Structured Output",
-  mindset:   "Production-first. Concept → Intelligence → Scale. Fast.",
-};
-```
-
-### How I Build
-
-| Area | Engineering Focus |
-| :--- | :--- |
-| **Agentic Systems** | Deterministic tool calling, state machines, self-correcting retry loops |
-| **Full-Stack Architecture** | FastAPI/Python microservices paired with dynamic Next.js/React frontends |
-| **Retrieval & Search** | Hybrid semantic/keyword search, re-ranking pipelines, dynamic vector routing |
-| **System Reliability** | Graceful degradation, streaming SSE/WebSocket UX, telemetry & observability |
-| **Open Source** | Fast iteration, high-velocity shipping, community-driven development |
-
-<img width="100%" src="./assets/divider.svg" alt="divider"/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                           TECH ARSENAL                                  -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-## `▚ TECH_ARSENAL`
-
-### `Languages & Core`
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-05D9E8?style=for-the-badge&logo=python&logoColor=white&labelColor=0D0221)
-![TypeScript](https://img.shields.io/badge/TypeScript-05D9E8?style=for-the-badge&logo=typescript&logoColor=white&labelColor=0D0221)
-![JavaScript](https://img.shields.io/badge/JavaScript-05D9E8?style=for-the-badge&logo=javascript&logoColor=white&labelColor=0D0221)
-![SQL](https://img.shields.io/badge/SQL-05D9E8?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=0D0221)
-![Bash](https://img.shields.io/badge/Bash-05D9E8?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=0D0221)
-
-</div>
-
-### `AI, LLMs & Agentic Frameworks`
-<div align="center">
-
-![PyTorch](https://img.shields.io/badge/PyTorch-FF2A6D?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=0D0221)
-![LangChain](https://img.shields.io/badge/LangChain-FF2A6D?style=for-the-badge&logo=chainlink&logoColor=white&labelColor=0D0221)
-![LangGraph](https://img.shields.io/badge/LangGraph-FF2A6D?style=for-the-badge&logo=diagram-next&logoColor=white&labelColor=0D0221)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-FF2A6D?style=for-the-badge&logo=meta&logoColor=white&labelColor=0D0221)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FF2A6D?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=0D0221)
-![Ollama](https://img.shields.io/badge/Ollama-FF2A6D?style=for-the-badge&logo=ollama&logoColor=white&labelColor=0D0221)
-
-</div>
-
-### `Full-Stack & Backends`
-<div align="center">
-
-![FastAPI](https://img.shields.io/badge/FastAPI-D300C5?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=0D0221)
-![Next.js](https://img.shields.io/badge/Next.js-D300C5?style=for-the-badge&logo=next.js&logoColor=white&labelColor=0D0221)
-![React](https://img.shields.io/badge/React-D300C5?style=for-the-badge&logo=react&logoColor=white&labelColor=0D0221)
-![Node.js](https://img.shields.io/badge/Node.js-D300C5?style=for-the-badge&logo=node.js&logoColor=white&labelColor=0D0221)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-D300C5?style=for-the-badge&logo=tailwindcss&logoColor=white&labelColor=0D0221)
-
-</div>
-
-### `Data, Vector Stores & Cloud`
-<div align="center">
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-9D4EDD?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=0D0221)
-![Qdrant](https://img.shields.io/badge/Qdrant-9D4EDD?style=for-the-badge&logo=database&logoColor=white&labelColor=0D0221)
-![Redis](https://img.shields.io/badge/Redis-9D4EDD?style=for-the-badge&logo=redis&logoColor=white&labelColor=0D0221)
-![Docker](https://img.shields.io/badge/Docker-9D4EDD?style=for-the-badge&logo=docker&logoColor=white&labelColor=0D0221)
-![AWS](https://img.shields.io/badge/AWS-9D4EDD?style=for-the-badge&logo=amazonwebservices&logoColor=white&labelColor=0D0221)
-![GitHub Actions](https://img.shields.io/badge/CI%2FCD-9D4EDD?style=for-the-badge&logo=githubactions&logoColor=white&labelColor=0D0221)
-
-</div>
-
-<img width="100%" src="./assets/divider.svg" alt="divider"/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                      ARCHITECTURE SPOTLIGHT                             -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-## `▚ ARCHITECTURE_SPOTLIGHT`
-
-<details open>
-<summary><strong>▸ NeuralSwarm: Multi-Agent Consensus & Autonomous Execution Pipeline</strong></summary>
-
-<br />
-
-**Core Architecture Highlights:**
-- Decentralized agent routing utilizing LangGraph state machines and typed schemas
-- Real-time tool-calling validation layer with guardrails preventing hallucinated payloads
-- Parallelized execution subnets with continuous self-reflective verification checks
-- Resilient fallback cascades: primary reasoning models automatically degrade to localized fallback instances on quota limits
-
-```mermaid
-flowchart LR
-  REQ["User Objective"] --> ROUTER["Dynamic Intent Router"]
-  ROUTER --> PLAN["Planning Agent"]
-  PLAN --> DISPATCH{"Task Dispatcher"}
-  DISPATCH --> A1["Tool Execution Agent"]
-  DISPATCH --> A2["Synthesis & Code Agent"]
-  A1 --> VALIDATE["Guardrail & Schema Check"]
-  A2 --> VALIDATE
-  VALIDATE --> REFLECT{"Self-Verification Passes?"}
-  REFLECT -- No --> PLAN
-  REFLECT -- Yes --> PROD["Verified Production Response"]
-```
-
-</details>
-
-<details>
-<summary><strong>▸ HyperRAG: Low-Latency Hybrid Search & Re-ranking Engine</strong></summary>
-
-<br />
-
-**Core Architecture Highlights:**
-- Multi-vector indexing leveraging dense embedding models alongside sparse BM25 tokenizers
-- Cross-encoder re-ranking pass filtering semantic noise before context injection
-- Dynamic sliding window chunking preserving conversational state across long session contexts
-- Sub-50ms vector query execution powered by optimized Qdrant indexing
-
-```mermaid
-flowchart LR
-  QUERY["Raw User Query"] --> EXPAND["Query Deconstruction & HyDE"]
-  EXPAND --> DENSE["Dense Vector Search (Qdrant)"]
-  EXPAND --> SPARSE["Sparse Keyword Search (BM25)"]
-  DENSE --> RRF["Reciprocal Rank Fusion (RRF)"]
-  SPARSE --> RRF
-  RRF --> RERANK["Cross-Encoder Re-ranker"]
-  RERANK --> CONTEXT["Minimal High-Relevance Context Window"]
-  CONTEXT --> LLM["LLM Synthesis Pipeline"]
-```
-
-</details>
-
-<img width="100%" src="./assets/divider.svg" alt="divider"/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                         REPOSITORY MAP                                  -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-## `▚ REPOSITORY_MAP`
-
-| Track | Repositories & Focus |
-| :--- | :--- |
-| 🤖 **Autonomous Agents** | [neural-agent-swarm](https://github.com/aiwithrajan/neural-agent-swarm), [auto-code-evaluator](https://github.com/aiwithrajan/auto-code-evaluator), [langgraph-supervisor](https://github.com/aiwithrajan/langgraph-supervisor) |
-| 🔍 **RAG & Search Systems** | [hybrid-rag-engine](https://github.com/aiwithrajan/hybrid-rag-engine), [vector-pipeline-stream](https://github.com/aiwithrajan/vector-pipeline-stream), [doc-intelligence-api](https://github.com/aiwithrajan/doc-intelligence-api) |
-| ⚡ **Full-Stack & Cloud** | [ai-saas-starter](https://github.com/aiwithrajan/ai-saas-starter), [fastapi-agent-service](https://github.com/aiwithrajan/fastapi-agent-service), [realtime-stream-ui](https://github.com/aiwithrajan/realtime-stream-ui) |
-| 🛠️ **Developer Tools** | [dev-toolkit-cli](https://github.com/aiwithrajan/dev-toolkit-cli), [mcp-agent-server](https://github.com/aiwithrajan/mcp-agent-server), [eval-bench](https://github.com/aiwithrajan/eval-bench) |
-| 🌐 **Open Source Contributions** | Active contributor across LangChain, Ollama, and Hugging Face ecosystems |
-
-<img width="100%" src="./assets/divider.svg" alt="divider"/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                        SYSTEM ANALYTICS                                 -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-## `▚ SYSTEM_ANALYTICS`
-
-<div align="center">
-
-<img height="195em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aiwithrajan&theme=2077" alt="Profile Details" />
-
-</div>
-
-<div align="center">
-
-<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=aiwithrajan&theme=2077" alt="GitHub Stats" />
-<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=aiwithrajan&theme=2077" alt="Top Languages" />
-
-</div>
-
-<div align="center">
-
-<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=aiwithrajan&theme=2077" alt="Most Commit Language" />
-<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=aiwithrajan&theme=2077&utcOffset=5.5" alt="Productive Time" />
-
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=aiwithrajan&theme=synthwave&hide_border=true&background=0D0221&ring=FF2A6D&fire=D300C5&currStreakLabel=05D9E8&sideLabels=05D9E8&dates=808080" alt="GitHub Streak" />
-
-</div>
-
-<img width="100%" src="./assets/divider.svg" alt="divider"/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                      CONTRIBUTION SNAKE                                 -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-## `▚ CONTRIBUTION_SNAKE`
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/aiwithrajan/aiwithrajan/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
-</div>
-
-<sub>Auto-regenerates daily via <code>.github/workflows/snake.yml</code>. Run it once from the <strong>Actions</strong> tab to seed the first frame.</sub>
-
-<img width="100%" src="./assets/divider.svg" alt="divider"/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                           CONTACT                                       -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-## `▚ TRANSMISSION_CHANNELS`
-
-- **Email** — [imrajan098@gmail.com](mailto:imrajan098@gmail.com)
-- **LinkedIn** — [linkedin.com/in/rajanmishra01](https://linkedin.com/in/rajanmishra01)
-- **X** — [x.com/RajanMi26020288](https://x.com/RajanMi26020288)
-- **GitHub** — [github.com/aiwithrajan](https://github.com/aiwithrajan)
-
-<p align="center">
-  <img width="100%" src="./assets/footer.svg" alt="footer"/>
+  <img src="./assets/footer.svg" width="100%" alt="Footer" />
 </p>

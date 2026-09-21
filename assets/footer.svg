@@ -1,35 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" font-family="'Courier New', ui-monospace, monospace">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" font-family="'JetBrains Mono', 'Courier New', monospace">
   <defs>
-    <linearGradient id="fneon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#05D9E8">
-        <animate attributeName="stop-color" values="#05D9E8;#D300C5;#FF2A6D;#05D9E8" dur="7s" repeatCount="indefinite"/>
+    <linearGradient id="footerNeon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ffa3">
+        <animate attributeName="stop-color" values="#00ffa3;#00e5ff;#9d4edd;#00ffa3" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#D300C5">
-        <animate attributeName="stop-color" values="#D300C5;#FF2A6D;#05D9E8;#D300C5" dur="7s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#00e5ff">
+        <animate attributeName="stop-color" values="#00e5ff;#9d4edd;#00ffa3;#00e5ff" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#FF2A6D">
-        <animate attributeName="stop-color" values="#FF2A6D;#05D9E8;#D300C5;#FF2A6D" dur="7s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#9d4edd">
+        <animate attributeName="stop-color" values="#9d4edd;#00ffa3;#00e5ff;#9d4edd" dur="8s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
-    <filter id="fglow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="fGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
-    <pattern id="fgrid" width="42" height="42" patternUnits="userSpaceOnUse">
-      <path d="M42 0H0V42" fill="none" stroke="#0f2f40" stroke-width="1"/>
-      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="42 42" dur="9s" repeatCount="indefinite"/>
-    </pattern>
   </defs>
 
-  <rect width="1200" height="150" fill="#0D0221"/>
-  <rect width="1200" height="150" fill="url(#fgrid)" opacity="0.5"/>
+  <!-- Background -->
+  <rect width="1200" height="150" fill="#04060d"/>
+  
+  <line x1="50" y1="20" x2="1150" y2="20" stroke="#0f2334" stroke-width="1.5"/>
+  <circle cx="600" cy="20" r="3" fill="#00ffa3"/>
 
-  <line x1="60" y1="20" x2="1140" y2="20" stroke="#123a4d" stroke-width="2"/>
-  <rect y="18" width="150" height="4" rx="2" fill="url(#fneon)">
-    <animate attributeName="x" values="-150;1200" dur="4.5s" repeatCount="indefinite"/>
-  </rect>
+  <!-- Core Message -->
+  <text x="600" y="78" text-anchor="middle" font-size="23" font-weight="900"
+        fill="url(#footerNeon)" filter="url(#fGlow)" letter-spacing="5">AUTONOMY // REASONING // INFINITE SCALE</text>
 
-  <text x="600" y="82" text-anchor="middle" font-size="26" font-weight="bold"
-        fill="url(#fneon)" filter="url(#fglow)" letter-spacing="4">INVENT THE UNSEEN // SCALE INTELLIGENCE</text>
-  <text x="600" y="116" text-anchor="middle" font-size="14" fill="#5f7d8c" letter-spacing="3">&#62; thanks for scrolling &#8212; let's build something<tspan fill="#05D9E8" dx="2">&#95;<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.5;0.5;0.99;1" dur="1.05s" repeatCount="indefinite"/></tspan></text>
+  <!-- Terminal Status -->
+  <text x="600" y="114" text-anchor="middle" font-size="13.5" fill="#587992" letter-spacing="2">
+    rajan@aiwithrajan:~$ status: <tspan fill="#00ffa3">neural_systems_operational</tspan><tspan fill="#00e5ff" dx="4">&#9608;<animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></tspan>
+  </text>
 </svg>
