@@ -1,5 +1,5 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--               ◈ RAJAN MISHRA // NEURAL SYSTEMS ARCHITECT ◈               -->
+<!--               ◈ RAJAN MISHRA // AI SYSTEMS & AGENT ARCHITECT ◈            -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -11,7 +11,7 @@
 
   <!-- TERMINAL TELEMETRY TYPING SUBTITLE -->
   <a href="https://github.com/aiwithrajan">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=00FFA3&background=04060D00&center=true&vCenter=true&width=840&lines=%24+booting+neural_orchestrator.py...;%3E+Architecting+Autonomous+Multi-Agent+Swarms;%3E+Engineering+Production+RAG+%26+Vector+Pipelines;%3E+Turning+computation+into+verifiable+intelligence." alt="Terminal Output" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=00FFA3&background=04060D00&center=true&vCenter=true&width=840&lines=%24+booting+neural_workbench.py...;%3E+Architecting+Autonomous+Agents+%26+Agent+Harnesses;%3E+Building+Production+RAG+%26+Research+Paper+Agents;%3E+Full-Stack+Systems+in+Python+%26+TypeScript;%3E+Turning+complex+workflows+into+shipped+software." alt="Terminal Output" />
   </a>
 
   <br/><br/>
@@ -34,7 +34,7 @@
   </a>
   &nbsp;
   <a href="https://github.com/aiwithrajan?tab=repositories" target="_blank">
-    <img src="https://img.shields.io/badge/REPOSITORIES-04060D?style=for-the-badge&logo=github&logoColor=00FFA3&labelColor=04060D&color=00FFA3" alt="Repositories" />
+    <img src="https://img.shields.io/badge/REPOSITORIES_(34)-04060D?style=for-the-badge&logo=github&logoColor=00FFA3&labelColor=04060D&color=00FFA3" alt="Repositories" />
   </a>
 
   <br/><br/>
@@ -60,24 +60,24 @@
 ### `◈ 01 // INTEL_MANIFEST`
 
 ```text
-╭────────────────────────────────────────────────────────────────────────────────────────╮
-│  OPERATOR        : Rajan Mishra                                                        │
-│  DISCIPLINE      : AI Systems Engineer & Autonomous Agent Architect                    │
-│  CORE MISSION    : Building resilient, deterministic intelligence on top of LLMs      │
-│  SPECIALTIES     : Multi-Agent Swarms · Self-Healing Pipelines · Low-Latency RAG       │
-│  INFRASTRUCTURE  : Python · FastAPI · LangGraph · PyTorch · Qdrant · PostgreSQL        │
-│  BUILD DOCTRINE  : Research with depth ──> Architect with rigor ──> Deploy at scale    │
-╰────────────────────────────────────────────────────────────────────────────────────────╯
+╭─────────────────────────────────────────────────────────────────────────────────────────╮
+│  OPERATOR        : Rajan Mishra (@aiwithrajan)                                          │
+│  CORE DOMAIN     : Autonomous Agent Systems · RAG Architectures · Full-Stack Products   │
+│  FLAGSHIPS       : summary · Agent-Harness- · fasttalk · relay · pdf-chatbot            │
+│  STACK DRIVERS   : Python · TypeScript · FastAPI · Flask · Vite · Docker Compose        │
+│  DEVELOPMENT ARC : ML & Experiments ──> Full-Stack Web ──> Production Agent Systems    │
+│  BUILD ETHOS     : "Prototype rapidly, isolate complexity, and harden for production."  │
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
-#### Core Engineering Pillars
+#### Engineering Evolution & Focus
 
-| Pillar | Engineering Execution |
-| :--- | :--- |
-| **🤖 Autonomous Agent Swarms** | Orchestrating multi-agent state graphs, dynamic supervisor routing, deterministic tool validation, and reflexive error loops. |
-| **🔍 Cognitive Retrieval (RAG)** | Hybrid dense-sparse search, reciprocal rank fusion (RRF), cross-encoder re-ranking, and dynamic vector clustering. |
-| **⚡ High-Throughput Backends** | Asynchronous FastAPI microservices, streaming SSE / WebSocket architectures, and low-latency local model inference. |
-| **🛡️ Guardrails & Evaluation** | Typed structured JSON schemas, hallucination detection layers, automated prompt benchmarking, and observability. |
+```
+[ PHASE 01: EXPLORATION ] ────► [ PHASE 02: WEB & ML ] ──────► [ PHASE 03: AGENTS & SYSTEMS ]
+• Geospatial Python scripts     • Flask & FastAPI Backends     • Autonomous Agent Harnesses
+• Emotion Detection (CV)        • Twilio Automation APIs       • Research Paper Synthesizer (summary)
+• Jupyter Analysis Notebooks    • Credit Risk Classification   • Retrieval-Augmented Generation (RAG)
+```
 
 <br/>
 
@@ -85,30 +85,22 @@
 
 <br/>
 
-### `◈ 02 // NEURAL_STACK & TOOLING`
+### `◈ 02 // TECHNICAL ARSENAL`
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,pytorch,ts,react,nextjs,postgres,redis,docker,aws,linux,git&theme=dark&perline=12" alt="Core Technologies" />
+  <img src="https://skillicons.dev/icons?i=python,ts,js,fastapi,flask,react,nextjs,vite,tailwind,docker,postgres,git&theme=dark&perline=12" alt="Core Technologies" />
 </div>
 
 <br/>
 
-```ini
-[INTELLIGENCE_LAYER]
-PyTorch · LangChain · LangGraph · LlamaIndex · HuggingFace · Ollama · vLLM · CrewAI
-
-[BACKEND_&_APIS]
-FastAPI · Python · Node.js · Express · RESTful APIs · Server-Sent Events (SSE) · WebSockets
-
-[FRONTEND_&_INTERACTION]
-TypeScript · React · Next.js · Tailwind CSS · Vite · Interactive Web Visualizations
-
-[STORAGE_&_VECTORS]
-Qdrant · PostgreSQL · Supabase · ChromaDB · Redis · Pinecone · SQLite
-
-[DEVOPS_&_PLATFORMS]
-Docker · Kubernetes · AWS Cloud · Cloudflare · Linux / Bash · GitHub Actions (CI/CD)
-```
+| Layer | Tools & Ecosystem |
+| :--- | :--- |
+| **🤖 AI Agents & RAG** | Autonomous Agent Loops, Agent Harnesses, Document RAG (PDF Q&A), Research Paper Agents, Prompt Engineering, Structured LLM Tool Calling |
+| **💻 Languages** | Python, TypeScript, JavaScript, HTML5, CSS3, SQL, Bash |
+| **⚡ Backend & APIs** | FastAPI, Flask, REST APIs, Vercel Serverless Functions, Twilio Messaging APIs, Asynchronous Python |
+| **🎨 Frontend & UI** | React, Next.js, Vite, Tailwind CSS, PostCSS, Embeddable Chatbot Widgets |
+| **📊 Machine Learning & CV**| Scikit-learn, OpenCV / Computer Vision (Emotion Detection), Automated Model Training Pipelines, Jupyter Notebooks |
+| **🛠️ DevOps & Infrastructure**| Docker, Docker Compose, Vitest, Git, GitHub Actions, Procfile Deployments |
 
 <br/>
 
@@ -118,7 +110,7 @@ Docker · Kubernetes · AWS Cloud · Cloudflare · Linux / Bash · GitHub Action
 
 ### `◈ 03 // ARCHITECTURAL BLUEPRINT`
 
-> **Dynamic Multi-Agent Swarm with Self-Correction & Verification Loop**
+> **Flagship Architecture: Autonomous Research Paper Summarizer & Synthesis Agent (`summary`)**
 
 ```mermaid
 flowchart TD
@@ -126,22 +118,24 @@ flowchart TD
     classDef accent fill:#080e1c,stroke:#00e5ff,stroke-width:1.5px,color:#00e5ff;
     classDef warn fill:#080e1c,stroke:#9d4edd,stroke-width:1.5px,color:#9d4edd;
 
-    INPUT["Incoming Objective / User Query"]:::accent --> ROUTER["Supervisor Intent Router"]:::cyber
+    INPUT["Research Document (PDF / ArXiv)"]:::accent --> EXTRACT["Document Parser & Text Chunking"]:::cyber
     
-    subgraph Swarm ["Autonomous Execution Swarm"]
-        ROUTER --> P_AGENT["Planning & Decomposition Agent"]:::cyber
-        P_AGENT --> T_AGENT["Tool Calling & Inference Node"]:::cyber
-        T_AGENT --> V_AGENT["Synthesis & Assembly Agent"]:::cyber
+    subgraph Agentic_Layer ["Autonomous Agent Orchestration Engine"]
+        EXTRACT --> PLANNER["Synthesis & Task Planner"]:::cyber
+        PLANNER --> RETRIEVER["Contextual Section Retriever"]:::cyber
+        RETRIEVER --> TOOL_CALL["Analysis Tools & Fact Extractor"]:::warn
+        TOOL_CALL --> SUMMARIZER["Structured Insight Generator"]:::cyber
     end
 
-    subgraph Memory ["Cognitive Context Subsystem"]
-        V_STORE[("Qdrant Vector Store\n(Epistemic Memory)")]:::warn
-        T_AGENT <--> V_STORE
-    end
+    SUMMARIZER --> VALIDATE{"Coherence & Citation Check"}:::accent
+    VALIDATE -- "Incomplete" --> PLANNER
+    VALIDATE -- "Verified" --> INTERFACES["Multi-Modal Delivery"]:::cyber
 
-    V_AGENT --> GATE{"Reflexive Verification Gate"}:::accent
-    GATE -- "Fail / Hallucination" --> P_AGENT
-    GATE -- "Pass / Verified" --> OUTPUT["Deterministic Production Output"]:::cyber
+    subgraph Output_Interfaces ["Presentation & Delivery Tier"]
+        INTERFACES --> CLI["Terminal CLI Tool"]:::cyber
+        INTERFACES --> REST["FastAPI / Web Server"]:::accent
+        INTERFACES --> WEB["Interactive Frontend UI"]:::warn
+    end
 ```
 
 <br/>
@@ -150,14 +144,38 @@ flowchart TD
 
 <br/>
 
-### `◈ 04 // ACTIVE LABS & REPOSITORIES`
+### `◈ 04 // FLAGSHIP SYSTEMS & REPOSITORY DIRECTORY`
 
-| System | Classification | Tech Stack | Status |
-| :--- | :--- | :--- | :--- |
-| [**Autonomous Agent Swarm**](https://github.com/aiwithrajan) | Distributed Multi-Agent Engine | Python, LangGraph, FastAPI, Docker | `● ACTIVE DEV` |
-| [**Hybrid RAG Search Platform**](https://github.com/aiwithrajan) | Dense/Sparse Vector Search Engine | Qdrant, PyTorch, Next.js, TypeScript | `● SHIPPED` |
-| [**Agentic Developer Assistant**](https://github.com/aiwithrajan) | Automated Code Evaluation & Refactor | Ollama, LangChain, CLI | `● OPEN SOURCE` |
-| [**FastAPI AI Gateway**](https://github.com/aiwithrajan) | High-Concurrency Model Serving | FastAPI, Redis, Docker, vLLM | `● PRODUCTION` |
+#### 🌟 Featured Flagship Builds
+
+| System | Architecture & Focus | Stack | Link |
+| :--- | :--- | :--- | :---: |
+| **`summary`** | **Autonomous Research Paper Summarizer**: End-to-end research synthesis engine equipped with an agent orchestration layer, REST API, CLI tool, and frontend interface. | `Python` `Agents` `FastAPI` `CLI` | [Explore ↗](https://github.com/aiwithrajan/summary) |
+| **`Agent-Harness-`** | **Agent Evaluation & Tooling Suite**: Experimental platform for testing agent harnesses, capabilities, benchmark demos, and TrueForge integrations. | `TypeScript` `Vite` `Vitest` `Agents` | [Explore ↗](https://github.com/aiwithrajan/Agent-Harness-) |
+| **`fasttalk`** | **Modern Interactive Web Application**: High-performance UI architecture with modular components, dynamic video assets, and polished styling. | `TypeScript` `Tailwind` `Vite` | [Explore ↗](https://github.com/aiwithrajan/fasttalk) |
+| **`relay`** | **AI & Media Workflow Platform**: Full-stack application coordinating backend logic, video processing pipelines, and Vercel cloud deployment. | `Python` `Full-Stack` `Vercel` | [Explore ↗](https://github.com/aiwithrajan/relay) |
+| **`pdf-chatbot`** | **Document Intelligence RAG System**: Conversational question-answering assistant over dense PDF documents powered by semantic retrieval. | `Python` `RAG` `LLMs` `Vector Search` | [Explore ↗](https://github.com/aiwithrajan/pdf-chatbot) |
+| **`level1`** | **Hack Club Full-Stack Systems Project**: Application codebase featuring smart contract interactions, scripts, test coverage, and containerization. | `TypeScript` `Docker Compose` `Vitest` | [Explore ↗](https://github.com/aiwithrajan/level1) |
+| **`invoice_project`** | **Automated Invoice Quality Control**: Full-stack enterprise tool checking, parsing, and validating invoices with a dedicated Python backend. | `Python` `Flask` `Procfile` `QC` | [Explore ↗](https://github.com/aiwithrajan/invoice_project) |
+| **`credit-risk-prediction-`**| **On-Demand ML Risk Engine**: Machine learning classification service dynamically training credit risk decision models at API startup. | `Python` `FastAPI` `Scikit-Learn` | [Explore ↗](https://github.com/aiwithrajan/credit-risk-prediction-) |
+
+<br/>
+
+<details>
+<summary><strong>▸ Click to view complete categorized index of all 34 repositories</strong></summary>
+
+<br/>
+
+| Domain | Repositories |
+| :--- | :--- |
+| **🤖 AI, LLMs & Agent Tooling** | [`summary`](https://github.com/aiwithrajan/summary), [`Agent-Harness-`](https://github.com/aiwithrajan/Agent-Harness-), [`pdf-chatbot`](https://github.com/aiwithrajan/pdf-chatbot), [`agent`](https://github.com/aiwithrajan/agent), [`fasttalk`](https://github.com/aiwithrajan/fasttalk), [`relay`](https://github.com/aiwithrajan/relay), [`polynova`](https://github.com/aiwithrajan/polynova) |
+| **🌐 Full-Stack & Web Applications**| [`invoice_project`](https://github.com/aiwithrajan/invoice_project), [`level1`](https://github.com/aiwithrajan/level1), [`flask`](https://github.com/aiwithrajan/flask), [`widget`](https://github.com/aiwithrajan/widget), [`twilio-project`](https://github.com/aiwithrajan/twilio-project), [`python`](https://github.com/aiwithrajan/python) |
+| **💬 Chatbot Widgets & UIs** | [`wid`](https://github.com/aiwithrajan/wid), [`frontend`](https://github.com/aiwithrajan/frontend), [`chatbot`](https://github.com/aiwithrajan/chatbot) |
+| **🔬 Applied ML & Computer Vision** | [`credit-risk-prediction-`](https://github.com/aiwithrajan/credit-risk-prediction-), [`Emotion-detection-system`](https://github.com/aiwithrajan/Emotion-detection-system) |
+| **🧪 Learning, Notebooks & Labs** | [`ASSIGNMENT1`](https://github.com/aiwithrajan/ASSIGNMENT1), [`poiu`](https://github.com/aiwithrajan/poiu), [`qwe`](https://github.com/aiwithrajan/qwe), [`oiuytre`](https://github.com/aiwithrajan/oiuytre), [`my-first-geo-python-code`](https://github.com/aiwithrajan/my-first-geo-python-code), [`first`](https://github.com/aiwithrajan/first) |
+| **📦 Prototypes & Experiments** | [`forme-`](https://github.com/aiwithrajan/forme-), [`moon`](https://github.com/aiwithrajan/moon), [`industrial-training-project`](https://github.com/aiwithrajan/industrial-training-project), [`try`](https://github.com/aiwithrajan/try), [`run`](https://github.com/aiwithrajan/run), [`troy`](https://github.com/aiwithrajan/troy), [`wqe`](https://github.com/aiwithrajan/wqe), [`host`](https://github.com/aiwithrajan/host), [`p9-iu`](https://github.com/aiwithrajan/p9-iu) |
+
+</details>
 
 <br/>
 
