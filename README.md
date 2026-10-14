@@ -36,6 +36,10 @@
   <a href="https://github.com/aiwithrajan?tab=repositories" target="_blank">
     <img src="https://img.shields.io/badge/REPOSITORIES_(34)-04060D?style=for-the-badge&logo=github&logoColor=00FFA3&labelColor=04060D&color=00FFA3" alt="Repositories" />
   </a>
+  &nbsp;
+  <a href="https://github.com/sponsors/aiwithrajan" target="_blank">
+    <img src="https://img.shields.io/badge/SPONSOR-04060D?style=for-the-badge&logo=githubsponsors&logoColor=EA4AAA&labelColor=04060D&color=EA4AAA" alt="GitHub Sponsors" />
+  </a>
 
   <br/><br/>
 
@@ -227,6 +231,31 @@ Connecting to operator node...
     <img src="https://img.shields.io/badge/Follow_Broadcasts-X-7928CA?style=flat-square&logo=x&logoColor=white" />
   </a>
 </p>
+
+<br/>
+
+<img src="./assets/divider.svg" width="100%" />
+
+<br/>
+
+### `◈ 07 // FUEL_THE_CORE // SPONSOR_TELEMETRY`
+
+<div align="center">
+
+  <p>
+    I engineer open-source autonomous agent frameworks, document intelligence (RAG), and production AI developer tooling.<br/>
+    Your sponsorship directly funds <strong>LLM API compute tokens (Anthropic / OpenAI / Gemini)</strong>, cloud benchmarks, and dedicated hours building free & open AI tools for the community.
+  </p>
+
+  <br/>
+
+  <a href="https://github.com/sponsors/aiwithrajan" target="_blank">
+    <img src="https://img.shields.io/badge/SPONSOR_ON_GITHUB-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" />
+  </a>
+
+</div>
+
+<br/>
 
 <p align="center">
   <img src="./assets/footer.svg" width="100%" alt="Footer" />
